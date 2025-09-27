@@ -1,0 +1,154 @@
+Host fl09shw001
+      Hostname 138.201.156.164
+      Port 22
+      User florian
+
+Host fl09vpn002
+      Hostname 188.34.164.236
+      Port 22
+      User florian
+
+Host fl09idb001
+      Hostname 88.99.122.96
+      Port 22
+      User root
+
+Host fl02for-pur002
+      Hostname 198.211.126.117
+      Port 22
+      User root
+
+Host fl02for-tys02
+       Hostname 192.81.222.14
+       Port 22
+       User root
+
+Host fl02for-fas01
+       Hostname 146.185.129.223
+       Port 22
+       User root
+
+Host fl02for-flo04
+       Hostname 185.14.186.11
+       Port 22
+       User root
+
+Host fl04for-flo02
+       Hostname 165.227.147.137
+       Port 22
+       User root
+
+Host fl09for-flo07
+       Hostname 188.245.89.215
+       Port 22
+       User root
+
+Host fl09for-flo08
+       Hostname 188.245.90.197
+       Port 22
+       User root
+
+Host fl09for-flo11
+       Hostname 138.199.150.104
+       Port 22
+       User root
+
+Host fl09for-flo12
+       Hostname 49.12.79.172
+       Port 22
+       User root
+
+Host fl09for-hur01
+       Hostname 142.132.237.91
+       Port 22
+       User root
+
+Host fl02for-pur002
+    Hostname 198.211.126.117
+    Port 22
+    User florian
+
+Host fl02for-tys02
+    Hostname 192.81.222.14
+    Port 22
+    User florian
+
+Host fl02for-fas01
+   Hostname 146.185.129.223
+   Port 22
+   User root
+
+Host fl02for-flo04
+    Hostname 185.14.186.11
+    Port 22
+    User florian
+
+Host fl04for-flo02
+    Hostname 165.227.147.137
+    Port 22
+    User florian
+
+Host fl09for-flo07
+    Hostname 188.245.89.215
+    Port 22
+    User florian
+
+Host fl09for-flo08
+    Hostname 188.245.90.197
+    Port 22
+    User florian
+
+Host fl09for-flo11
+    Hostname 138.199.150.104
+    Port 22
+    User florian
+
+Host fl09for-flo12
+    Hostname 49.12.79.172
+    Port 22
+    User florian
+
+Host fl09for-hur01
+    Hostname 142.132.237.91
+    Port 22
+    User florian
+
+Host fl02for-fas01
+    Hostname 146.185.129.223
+    Port 22
+    User root
+
+Host fl09shw001
+    Hostname 138.201.156.164
+    Port 22
+    User florian
+
+Host fl09doc003
+    Hostname 168.119.190.12
+    Port 22
+    User root
+
+Host fl09plo-acc01
+    Hostname 49.13.8.204
+    Port 22
+    User ploi
+
+Host fl09plo-tys01
+    Hostname 91.99.209.57
+    Port 22
+    User ploi
+
+Host fl09plo-lar01
+    Hostname 49.12.79.172
+    Port 22
+    User ploi
+
+Host fl09plo-lar02
+    Hostname 91.99.216.112
+    Port 22
+    User ploi
+
+Host fl09plo-sta01
+    Hostname 138.199.228.81
+    Port 22
+    User ploi

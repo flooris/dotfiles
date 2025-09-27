@@ -1,0 +1,126 @@
+#!/bin/bash
+
+# Add global gitignore
+ln -s $HOME/dotfiles/shell/.global-gitignore $HOME/.global-gitignore
+git config --global core.excludesfile $HOME/.global-gitignore
+
+# Symlink the Mackup config
+ln -s $HOME/dotfiles/macos/.mackup.cfg $HOME/.mackup.cfg
+
+echo 'Install nvm'
+echo '-----------'
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+
+echo 'Install homebrew'
+echo '----------------'
+echo install homebrew
+sudo rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+echo 'Install nmap'
+echo '------------'
+brew install nmap
+
+echo 'Install 1password'
+echo '-----------------'
+brew install 1password
+
+echo 'Install tableplus'
+echo '-----------------'
+brew install tableplus
+
+echo 'Install tinkerwell'
+echo '------------------'
+brew install tinkerwell
+
+echo 'Install fork'
+echo '------------'
+brew install fork
+
+echo 'Install termius'
+echo '---------------'
+brew install --cask termius
+
+echo 'Install slack'
+echo '-------------'
+brew install slack
+
+echo 'Install spotify'
+echo '---------------'
+brew install spotify
+
+echo 'Install whatsapp'
+echo '----------------'
+brew install whatsapp
+
+echo 'Install transmit'
+echo '----------------'
+brew install transmit
+
+echo 'Install google-drive-file-stream'
+echo '--------------------------------'
+brew install google-drive-file-stream
+
+echo 'Install ansible'
+echo '---------------'
+brew install ansible
+
+echo 'Install cwebp https://developers.google.com/speed/webp/docs/using'
+echo '---------------------------------------------------'
+brew install webp
+
+echo 'Install figma'
+echo '---------------------'
+brew install --cask figma
+
+echo 'Install warp (Rust-based terminal)'
+echo '---------------------'
+brew install --cask warp
+
+echo 'Install deadbolt encryption tool
+echo '-------------------------------'
+brew install --cask deadbolt
+
+# You can set this app as the default app for .dbolt files, which means you'll be able to double-click on .dbolt files to open them with deadbolt for decryption.
+#
+# You can set this up the first time you double-click on a .dbolt file, or by right-clicking on a .dbolt file, selecting Get Info and changing the default app in the Open With: section.
+#
+# To do this programmatically, run the following snippet:
+brew install duti
+duti -s org.alichtman.deadbolt dyn.ah62d4rv4ge80k2xtrv4a all
+
+echo 'create ~/.nvm directory'
+echo '-----------------------'
+mkdir ~/.nvm
+
+echo 'create ~/.profile directory'
+echo '-----------------------'
+mkdir ~/.profile
+
+echo '++++++++++++++++++++++++++++++'
+echo 'Some optional tidbits'
+
+echo '1. Make sure iCloud is running first. If you have not backed up via Mackup yet, then run `mackup backup` to symlink preferences for a wide collection of apps to your iCloud. If you already had a backup via mackup run `mackup restore` You'\''ll find more info on Mackup here: https://github.com/lra/mackup.'
+echo '2. Set some sensible os x defaults by running: $HOME/dotfiles/macos/set-defaults.sh'
+echo '3. Make a .dotfiles-custom/shell/.aliases for your personal commands'
+
+echo '++++++++++++++++++++++++++++++'
+echo 'Some missing apps'
+
+echo '- JetBrain Tools + PhpStorm'
+echo '- Pop (via pop.com)'
+
+echo '++++++++++++++++++++++++++++++'
+echo '++++++++++++++++++++++++++++++'
+
+echo '++++++++++++++++++++++++++++++'
+echo 'Font Awesome v5 Pro global license'
+
+echo 'Log-in (using credentials in 1Password) at: https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers'
+echo 'read the "Installing the Pro version of Font Awesome" instructions'
+echo 'example: '
+echo 'npm config set "@fortawesome:registry" https://npm.fontawesome.com/'
+echo 'npm config set "//npm.fontawesome.com/:_authToken" XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXXX (see above link)'
+
+echo '++++++++++++++++++++++++++++++'
+echo '++++++++++++++++++++++++++++++'
