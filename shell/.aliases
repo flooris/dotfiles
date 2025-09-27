@@ -41,7 +41,7 @@ alias o="open ."
 alias l="ls -lahF"
 
 # PhpStorm
-alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
+alias phpstorm='open -a ~/Applications/PhpStorm.app "`pwd`"'
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
@@ -60,15 +60,3 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 # Empty the Trash on all mounted volumes and the main HDD
 # Also, clear Apple’s System Logs to improve shell startup speed
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
-
-# Projects
-alias irp="cd ~/Projects/iUsed/iused-refurbisher-portal-laravel-2021"
-alias hub="cd ~/Projects/Hurricane/hurricane-backoffice-2022"
-alias brekzbackend="cd ~/Projects/Brekz/brekz-shop-backend"
-alias brekzpresta="cd ~/Projects/Brekz/brekz-prestashop"
-alias brekzcms="cd ~/Projects/Brekz/brekz-cms"
-alias brekzwebsite="cd ~/Projects/Brekz/brekz-website"
-alias brekzlogistics="cd ~/Projects/Brekz/brekz-logistics"
-alias broh="cd ~/Projects/Brekz/brekz-logistics"
-alias ttlogistics="cd ~/Projects/ThysToys/thystoys-logistics"
-alias w3="cd ~/Projects/W3Wijnen/w3-wijnen-order-portal"
